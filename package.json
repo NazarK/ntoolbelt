@@ -1,0 +1,14 @@
+{
+  "name": "ntool",
+  "version": "1.0.0",
+  "description": "nazar coding tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,  
+  "author": "NK",
+  "license": "ISC",
+  "bin": {
+    "nt": "index.js"
+  }
+}
