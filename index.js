@@ -7,7 +7,7 @@ if(!cm) {
   console.log('usage: nt push - git push latest changes to origin repo');
 }
 
-if(cm=="push") {
+if(cm=="push" || cm=="pu") {
   var exec = require('child_process').exec;
   param = param || "-"
   var child = exec('echo "git commit";git add .;git commit -am "'+param+'";git push origin master', function(err, stdout, stderr) {
