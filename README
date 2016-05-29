@@ -1,0 +1,4 @@
+install with:
+	npm install -g ntool
+
+then command: "nt" will be available
