@@ -1,3 +1,12 @@
+This is my experiment with building node modules.
+
+This is a command line utility, which supposed to have shortcuts to usefull command line commands.
+
+Currently only "nt pu" command available, which is shortcut for:
+  git add .
+  git commit -am "-"
+  git push origin master
+
 install with:
 	npm install -g ntool
 
